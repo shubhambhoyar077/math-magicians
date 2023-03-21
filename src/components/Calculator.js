@@ -17,7 +17,6 @@ function Calculator() {
     calcObj.total = total;
     calcObj.next = next;
     calcObj.operation = operation;
-    console.log(calcObj);
     if (calcObj.next || calcObj.total) {
       setResult(calcObj.next ? calcObj.next : calcObj.total);
     } else {
