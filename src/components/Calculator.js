@@ -1,6 +1,6 @@
 import '../css/calculator.css';
-import CalcDisplay from './calcDisplay';
-import CalcBody from './calcBody';
+import CalcDisplay from './CalcDisplay';
+import CalcBody from './CalcBody';
 
 function Calculator() {
   return (
