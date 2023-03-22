@@ -25,7 +25,6 @@ function Calculator() {
   };
   return (
     <div className="calculator">
-      <h1>Calculator</h1>
       <CalcDisplay result={result} />
       <CalcBody handelClick={handelClick} />
     </div>
