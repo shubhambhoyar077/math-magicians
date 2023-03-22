@@ -12,7 +12,7 @@ function Quote() {
         contentType: 'application/json',
       });
       if (!response.ok) {
-        throw Error('could not fetch data.');
+        throw Error('could not fetch data. Please check API key');
       }
       return response.json();
     };
