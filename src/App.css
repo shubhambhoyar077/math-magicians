@@ -2,6 +2,7 @@
   /* text-align: center; */
   display: flex;
   flex-direction: column;
+
   /* justify-content: center; */
   align-items: center;
   width: 100%;
@@ -26,7 +27,7 @@
   width: 60%;
 }
 
-.home{
+.home {
   width: 80%;
   height: 100vh;
   padding-top: 5%;
