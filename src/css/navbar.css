@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 2%;
+}
+
+.navbar h1 {
+  font-size: 3rem;
+}
+
+.navitems {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  align-self: flex-end;
+  height: 100%;
+  margin: 0;
+}
+
+.navitems > li:not(:last-child) {
+  padding-right: 8px;
+  border-right: 2px solid black;
+}
