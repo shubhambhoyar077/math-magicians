@@ -18,7 +18,7 @@ function Quote() {
     };
     fetchQuote()
       .then((data) => {
-        setQuote(data[0].quote);
+        setQuote(`${data[0].quote}-${data[0].author}`);
         setIsLoading(false);
         setErrMessage(null);
       })
