@@ -24,7 +24,7 @@
   margin: 0;
 }
 
-.navitems > li{
+.navitems > li:not(:last-child){
   padding-right: 8px;
   border-right: 2px solid black;
 }

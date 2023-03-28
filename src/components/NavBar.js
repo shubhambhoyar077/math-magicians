@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <>
       <nav className="navbar">
-        <h1>Math Magician</h1>
+        <h1>Math Magicians</h1>
         <NavItem />
       </nav>
       <Outlet />
