@@ -1,11 +1,11 @@
-// import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export default function NavItem() {
   return (
     <ul className="navitems">
-      {/* <li><Link to="/">Home</Link></li> */}
-      <li>Calculator</li>
-      <li>Quote</li>
+      <li><NavLink to="/">Home</NavLink></li>
+      <li><NavLink to="calculator">Calculator</NavLink></li>
+      <li><NavLink to="quote">Quote</NavLink></li>
     </ul>
   );
 }

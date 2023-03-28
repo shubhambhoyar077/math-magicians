@@ -24,9 +24,12 @@ function Calculator() {
     }
   };
   return (
-    <div className="calculator">
-      <CalcDisplay result={result} />
-      <CalcBody handelClick={handelClick} />
+    <div className="calcPage">
+      <h1>Lets do some math!</h1>
+      <div className="calculator">
+        <CalcDisplay result={result} />
+        <CalcBody handelClick={handelClick} />
+      </div>
     </div>
   );
 }
