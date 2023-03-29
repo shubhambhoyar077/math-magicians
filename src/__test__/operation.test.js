@@ -2,7 +2,7 @@ import operate from '../logic/operate';
 
 describe('Testing Operate', () => {
   it('Testing +', () => {
-    expect(operate('2', '4', '+')).toBe('6');
+    expect(operate('2', '6', '+')).toBe('8');
   });
   it('Testing -', () => {
     expect(operate('2', '4', '-')).toBe('-2');
