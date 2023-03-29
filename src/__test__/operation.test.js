@@ -16,5 +16,4 @@ describe('Testing Operate', () => {
   it('Testing %', () => {
     expect(operate('5', '2', '%')).toBe('1');
   });
-
 });
