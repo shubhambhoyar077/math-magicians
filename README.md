@@ -76,7 +76,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo not available]
+- [Live Demo](https://math-magician-3zcg.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
