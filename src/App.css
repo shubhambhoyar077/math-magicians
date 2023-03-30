@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.calcPage {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 100vh;
+  padding-top: 5%;
+}
+
+.quote {
+  width: 80%;
+  padding-top: 5%;
+  font-size: 2rem;
+}
+
+.calcPage .calculator {
+  width: 60%;
+}
+
+.home {
+  width: 80%;
+  height: 100vh;
+  padding-top: 5%;
+  font-size: 1.5rem;
+}
